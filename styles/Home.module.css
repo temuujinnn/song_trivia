@@ -1,0 +1,27 @@
+/* styles/Home.module.css */
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.selectors {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.songList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.songList li {
+  margin-bottom: 10px;
+}
+
+.score {
+  margin-top: 20px;
+}

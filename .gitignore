@@ -9,6 +9,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+/./history/
 
 # testing
 /coverage
@@ -35,7 +36,7 @@ yarn-error.log*
 
 # vercel
 .vercel
-
+.history
 # typescript
 *.tsbuildinfo
 next-env.d.ts
